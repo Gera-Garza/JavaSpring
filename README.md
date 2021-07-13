@@ -14,7 +14,7 @@ This is the repository for the course of Java Spring with Platzi, here you will 
 
 Project is created with:
 * IntelliJ IDEA
-> * With openJDK 1.8 
+> * With openJDK 11.0.11
 > * With the module of Junit
 
 	
@@ -23,7 +23,15 @@ Install [IntelliJ](https://www.jetbrains.com/es-es/idea/download/#section=window
 
 Then in the extensions tab search for **Java Extension Pack** and install it.
 
-Start your proyect creating your files with **.java**  
+Enter in the [Spring_initializr](https://start.spring.io/) to prepare the files that will be open with intellij
+* Select Gradle Proyect
+* Spring boot 2.5.2 (the most stable at the moment this repository was created)
+* Group: com.platzi
+* Artifact: Platzi-market
+* Description: Proyecto para crear una API con Spring
+* Packaging Jar
+* Java: 11
+* Dependencies: Spring Web
 
 ## Summary
 In this course talk about all what can be done and some benefits from using Test it is recommended to use automated test rather than manual testing, there are severals kinds of thest the [Unitary](#unitary), [Integration](#integration), [Functinoal](#functional), [End_to_end](#end_to_end) and [Stress](#stress) test next I will talk more about them. Some benefits that have doing testing are for example, checking that we really complete the requirements, it helps with the documentation, improves our confidence and well its a tool that adds value as a developer.
