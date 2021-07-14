@@ -1,7 +1,6 @@
-package com.platzi.market.persistance.entity;
+package com.platzi.market.persistence.entity;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name = "productos")
